@@ -36,7 +36,7 @@ from torch.nn.parameter import Parameter
 
 
 
-class GATconv_hyperkcp(nn.Module):
+class H3KCPConv(nn.Module):
     def __init__(self,
         in_channels: int,
         out_channels: int,
@@ -97,7 +97,7 @@ class GATconv_hyperkcp(nn.Module):
 
 
 
-class HyperKCP(nn.Module):
+class H3KCP(nn.Module):
 
     def __init__(
         self,
